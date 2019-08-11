@@ -6,7 +6,7 @@ Mojoliciousで占いアプリケーション
 ## Overview
 「占う」を押したら、結果ページへ遷移し、僕の好きな馬場ふみかと池田エライザとあいみょんが出てきて、たまにハリセンボンの春菜(好きじゃないです)が出てきます。
 
-txtファイルのデータから、HTML::Builderを使って、Google検索and画像のsrc取得してます。
+txtファイルのデータから、HTML::TreeBuilderを使って、Google検索and画像のsrc取得してます。
 
 
 ## Demo
@@ -21,4 +21,5 @@ txtファイルのデータから、HTML::Builderを使って、Google検索and�
 ## Caution
 
 すべてのOSで検証していません（MacOSのみ動作確認済み）。
+
 Perl 5.30.0のみで動作確認済み。
