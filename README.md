@@ -10,7 +10,7 @@ txtファイルのデータから、HTML::Builderを使って、Google検索and�
 
 
 ## Demo
-![正規表現プロダクト](https://user-images.githubusercontent.com/43311555/61576317-9f7cdf00-ab13-11e9-8151-8af902824fb7.gif)
+![FortuneTelling](https://user-images.githubusercontent.com/43311555/62829263-d63aa680-bc34-11e9-8338-f9b9a0be8c12.gif)
 
 ## Usage
 
