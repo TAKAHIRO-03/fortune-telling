@@ -16,6 +16,8 @@ txtファイルのデータから、HTML::TreeBuilderを使って、Google検索
 
 テキストファイルのパスを見直す必要あり。
 
+実行時は、カレントディレクトリで、「morbo main.pl」で実行。
+
 追加したいグラビアアイドルなどいる場合は、Info.txtに追加して下さい。
 
 ## Caution
