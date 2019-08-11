@@ -1,0 +1,30 @@
+<% 
+use Encode qw/encode decode/;
+
+my $profile = stash('profile');
+my @human = keys %$profile;
+my $subtitle = $profile->{$human[0]};
+my $img_url = stash('img_url');
+%>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>美女占いの館</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 class = "result_title">美女占いの館</h1>
+    </header>
+        <h2 class = "result">結果：<%= decode('UTF-8',$human[0])%></h2>
+        <div class = "img_wrap">
+            <img src = <%= $img_url%> >
+        </div>
+        <p class = "subtitle"><%= decode('UTF-8',$subtitle)%></p>
+    <footer>
+        <div class="fotter_address">Copy right 2019 :Kobayashi Takahiro.</div>
+    </footer>
+</body>
+</html>

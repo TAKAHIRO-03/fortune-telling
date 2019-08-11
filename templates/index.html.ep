@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>美女占いの館</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class = "body_main">
+    <h1 class = "title_wrap">
+        <span class = "title">美女占いの館</span>
+    </h1>
+    <a class = "horizontal" href = "http://127.0.0.1:3000/result" >占う。</a>
+</body>
+</html>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+* { margin:0;padding:0; }
+.body_main{ 
+    background-color:black; 
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title_wrap{
+    position: absolute;
+    top:0;bottom:0;left:0;right:0;margin:auto;
+    width:8em;
+    height:115px;
+    text-align:center;
+    font-weight:bold;
+    font-size:100px;
+    font-family:serif;
+    text-shadow:-1px -1px 1px white;
+    -webkit-box-reflect:below 10px linear-gradient(0deg,rgba(0,0,0,0.5) 10%,rgba(0,0,0,0.1) 70%,transparent);
+}
+
+.title{color:#ff69b4;}
+
+a{
+    position:absolute;
+    top:0;bottom:0;left:0;right:0;margin:auto;
+    margin-bottom: 50px; 
+    width:3em;
+    height:100px;
+    font-weight:bold;
+    font-size:50px;
+    font-family:serif;
+    text-align: center;
+    text-decoration:none;
+    color: #cc9595;
+}
+
+.horizontal {
+    animation: horizontal_6757 1.5s ease infinite;
+    transform-origin: 50% 50%;
+  }
+  
+  @keyframes horizontal_6757 {
+    0% { transform:translate(0,0) }
+    16.66667% { transform:translate(5px,0) }
+    33.33333% { transform:translate(0,0) }
+    50% { transform:translate(5px,0) }
+    66.66667% { transform:translate(0,0) }
+    83.33333% { transform:translate(5px,0) }
+    100% { transform:translate(0,0) }
+  }
+
+body{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.result_title{
+    background-color:#ff1493;  
+    color:#ffffff;
+    text-align: center;
+}
+
+.result{
+    width: 60%;
+    margin : 20px auto;
+    text-align: center;
+}
+
+.img_wrap{
+    height: 500px;
+    width: 60%;
+    margin : auto;
+    position: relative;
+}
+
+.subtitle{
+    width: 60%;
+    margin : 40px auto;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+}
+
+.fotter_address{
+    width: 100%;
+    margin: 0 auto;
+    background: #fffacd;
+    text-align: center;
+    color: #666;
+    padding: 10px 0;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+img{
+    height: 70%;
+    width: 60%;
+    position:absolute;
+    top:0;bottom:0;left:0;right:0;margin:auto;
+}
+
+
+
