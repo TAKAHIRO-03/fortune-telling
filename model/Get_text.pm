@@ -5,7 +5,7 @@ use utf8;
 use Data::Dumper;
 
 sub open_file {
-    my $filename = '/Users/takachanman/Desktop/git_dev/fortune telling/model/info.txt';
+    my $filename = 'パスを指定してください';
     my $human_number = int(1 + rand 4) - 1;
     open FILE, $filename
         or die "Can't open '$filename' : $!";
