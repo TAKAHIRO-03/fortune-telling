@@ -4,12 +4,6 @@ use warnings;
 use utf8;
 use Data::Dumper;
 
-# コンストラクタ  new(x=0.0)
-# sub new {
-#   my $self = shift;
-#   return $self;
-# }
-
 sub open_file {
     my $filename = '/Users/takachanman/Desktop/git_dev/fortune telling/model/info.txt';
     my $human_number = int(1 + rand 4) - 1;
